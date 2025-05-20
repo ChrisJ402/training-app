@@ -248,7 +248,7 @@ Under that directory there will be several other directories, the one we want is
 
 There is a basic pipeline already in place, the top of the file has the name, this is the name that will appear in the workflows tab of github and is used to identifiy pipelines.
 
-## trigger
+## trigger 
 
 Next we have the `on` section. This is how we specify what causes this pipeline to run, we have it set to run on push to any branch that matches the naming pattern of `**` which is all branches. This will often have more finegrained controls but for this example its fine to leave it like this, but things you can set it to are on the creation or close of a pull request, manual activation for things like creating or deleting resources and at specific time intervals, such as running long tests over night.
 
