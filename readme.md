@@ -197,7 +197,7 @@ now you are autherised to publish your image, first you want to tag your image w
 
 ```bash
 podman tag flask-app:latest ghcr.io/<username>/training-app:latest
-podman push ghci.io/<username>/training-app:latest
+podman push ghcr.io/<username>/training-app:latest
 ```
 
 You can test this worked by pulling the image with:
