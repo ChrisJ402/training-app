@@ -57,7 +57,7 @@ jobs:
           oc login --token=$OPENSHIFT_API_TOKEN --server=$OPENSHIFT_SERVER_URL
       - name: Select project and deploy pod
         env:
-          PROJECT_NAME: acleveland
+          PROJECT_NAME: chrisj402
         run: |
           oc project $PROJECT_NAME
           oc delete pod flask-app --ignore-not-found=true
