@@ -214,7 +214,7 @@ Now we have an image that we can deploy into whatever environments we want and c
 Rather than manually checking the results in a browser we can automate this with a test file, one has been provided in the `test` directory. it can be run with:
 
 ```bash
-python test/test_app.py
+python tests/test_app.py
 ```
 
 If it works you should see something like this:
