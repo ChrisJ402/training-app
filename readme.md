@@ -271,7 +271,7 @@ To do that we can add this block in a new step below the `Wait for Flask to be r
 
 Ensure that the indentation is inline with the rest of the code, yaml is very sensitive to indents as that is how it seperates out blocks, think of indents in yaml like Brackets in json.
 
-Now we can save this and push the changes into git. This can be done either via the GUI in VSCode or the IDE of your choice or you can do it via the command line, I have this handy little one liner that I use to add, commit and push all in one command, replace `<initials>` with your actual initials, for me its `AC`. In bash the `&&` means if this command is successful then move onto the next one, so if any step fails it will end the chain of commands:
+Now we can save this and push the changes into git. This can be done either via the GUI in VSCode or the IDE of your choice or you can do it via the command line, I have this handy little one liner that I use to add, commit and push all in one command, replace `<initials>` with your actual initials, for me its `AC`. In bash the `&&` means if this command is successful then move onto the next one, so if any step fails it will end the chain of commands: 
 
 ```bash
 git add -A && git commit -m "<initals> - added new step to run automated tests" && git push
