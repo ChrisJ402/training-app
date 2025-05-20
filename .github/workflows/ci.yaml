@@ -68,5 +68,3 @@ jobs:
         run: |
           podman stop flask-test
           podman rm flask-test
-        
-
